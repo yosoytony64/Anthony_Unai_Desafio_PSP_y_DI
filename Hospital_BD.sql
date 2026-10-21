@@ -49,7 +49,7 @@ CREATE TABLE historial_clinico (
     id_historial INT AUTO_INCREMENT PRIMARY KEY,
     id_paciente INT NOT NULL,
     id_medico INT NOT NULL,
-    id_cita INT NULL,
+    id_cita INT NULL, -- solo si el registro viena de una cita agendada
     fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP,
     diagnostico TEXT NOT NULL,
     tratamiento TEXT,
@@ -63,37 +63,21 @@ CREATE TABLE pruebas (
     id_prueba INT AUTO_INCREMENT PRIMARY KEY,
     nombre_prueba VARCHAR(100) NOT NULL UNIQUE,
     descripcion TEXT,
-    id_departamento INT NOT NULL,
+    valores_referencia TEXT, 
     precio DECIMAL(10, 2) CHECK (precio >= 0),
+    id_departamento INT NOT NULL,
     FOREIGN KEY (id_departamento) REFERENCES departamentos(id_departamento) ON DELETE RESTRICT
 );
 
 CREATE TABLE resultados_pruebas (
     id_resultado INT AUTO_INCREMENT PRIMARY KEY,
-    id_prueba INT NOT NULL,
     id_paciente INT NOT NULL,
-    id_medico_solicitante INT NOT NULL,
+    id_prueba INT NOT NULL,
+    id_medico_solicitante INT NULL, -- Opcional
     fecha_realizacion DATETIME DEFAULT CURRENT_TIMESTAMP,
     resultado_detalles TEXT NOT NULL,
-    valores_referencia TEXT,
     observaciones TEXT,
-    FOREIGN KEY (id_prueba) REFERENCES pruebas(id_prueba) ON DELETE RESTRICT,
     FOREIGN KEY (id_paciente) REFERENCES pacientes(id_paciente) ON DELETE CASCADE,
-    FOREIGN KEY (id_medico_solicitante) REFERENCES medicos(id_medico) ON DELETE RESTRICT
-);
-
-CREATE TABLE peticiones_procesadas (
-    id_peticion INT AUTO_INCREMENT PRIMARY KEY,
-    id_paciente INT NOT NULL,
-    id_medico_solicitante INT NOT NULL,
-    id_prueba INT NOT NULL,
-    id_resultado INT NULL,
-    fecha_solicitud DATETIME NOT NULL,
-    fecha_procesamiento DATETIME NULL,
-    estado_procesamiento VARCHAR(30) DEFAULT 'Pendiente' CHECK (estado_procesamiento IN ('Pendiente', 'En Proceso', 'Completada', 'Rechazada')),
-    observaciones_procesamiento TEXT,
-    FOREIGN KEY (id_paciente) REFERENCES pacientes(id_paciente) ON DELETE CASCADE,
-    FOREIGN KEY (id_medico_solicitante) REFERENCES medicos(id_medico) ON DELETE RESTRICT,
     FOREIGN KEY (id_prueba) REFERENCES pruebas(id_prueba) ON DELETE RESTRICT,
-    FOREIGN KEY (id_resultado) REFERENCES resultados_pruebas(id_resultado) ON DELETE SET NULL
+    FOREIGN KEY (id_medico_solicitante) REFERENCES medicos(id_medico) ON DELETE SET NULL
 );

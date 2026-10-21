@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3852CC-C885-476C-B987-11EC59075AF4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\servicio_procesamiento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3852CC-C885-476C-B987-11EC59075AF4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|solutionrelative:servicio_procesamiento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3852CC-C885-476C-B987-11EC59075AF4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\servicio_procesamiento\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3852CC-C885-476C-B987-11EC59075AF4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|solutionrelative:servicio_procesamiento\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42DFE5A7-0CAA-4C93-B313-07594AFC48C1}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42DFE5A7-0CAA-4C93-B313-07594AFC48C1}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42DFE5A7-0CAA-4C93-B313-07594AFC48C1}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42DFE5A7-0CAA-4C93-B313-07594AFC48C1}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Servicio_Procesamiento\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml",
+              "RelativeToolTip": "Servicio_Procesamiento\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T07:36:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Servicio_Procesamiento\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Servicio_Procesamiento\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T07:36:31.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\MainWindow.xaml",
+              "RelativeToolTip": "Sistema_Gestion\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T07:33:51.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Sistema_Gestion\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T07:33:48.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
