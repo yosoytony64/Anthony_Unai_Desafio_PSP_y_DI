@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj": {}
+    "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj": {
+    "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
+        "projectUniqueName": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
         "projectName": "Sistema_Gestion",
-        "projectPath": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
-        "packagesPath": "C:\\Users\\ipadr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\obj\\",
+        "projectPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
+        "packagesPath": "C:\\Users\\y4994\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ipadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y4994\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
