@@ -1,0 +1,15 @@
+{
+  "messageId": "Prueba",
+  "version": 1,
+  "type": "request",
+  "operation": "ResultadoPrueba",
+  "timestamp": "26-10-2026 T10:41",
+  "data": {
+    "requestId": "Laboratoriocentral",
+    "patientId": "AR601547384K",
+    "department": "Laboratorio",
+    "testType": "Sangre",
+    "priority": "Normal"
+  }
+
+}
