@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\curso 26-27\\psp\\hospital_procesos\\hospital_procesos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\curso 26-27\\psp\\hospital_procesos\\hospital_procesos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Hospital_procesos\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml",
+              "RelativeToolTip": "Hospital_procesos\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-12T12:30:38.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Hospital_procesos\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Hospital_procesos\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T12:30:34.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
