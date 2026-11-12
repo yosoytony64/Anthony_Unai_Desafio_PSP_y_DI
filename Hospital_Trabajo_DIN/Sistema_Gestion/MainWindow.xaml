@@ -5,8 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sistema_Gestion"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Sistema de Gestión" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
 
+            <ColumnDefinition Width="220"/>
+
+
+            <ColumnDefinition Width="1"/>
+        </Grid.ColumnDefinitions>
+
+
+        <StackPanel Grid.Column="0"
+        Background="#173B67">
+
+            <Image Source="/imagenes/logo.png"
+   Width="110"
+   Height="110"
+   Margin="0,25,0,30"
+   Stretch="Uniform"
+   HorizontalAlignment="Center" ImageFailed="guruguru"/>
+
+            <Button x:Name="Gestion" Content="Gestión"
+    Height="50"
+    Margin="10,10,10,15" Click="Gestion_Click"/>
+
+            <Button Content="Procesamiento"
+    Height="50"
+    Margin="10,0,10,15" Click="Procesa"/>
+
+            <Button x:Name="Exit" Content="Salir"
+    Height="50"
+    Margin="10,0,10,15" Click="Exit_Click"/>
+
+        </StackPanel>
+
+
+        <Grid Grid.Column="1"
+  Background="#F3F6FA">
+
+
+
+        </Grid>
     </Grid>
 </Window>

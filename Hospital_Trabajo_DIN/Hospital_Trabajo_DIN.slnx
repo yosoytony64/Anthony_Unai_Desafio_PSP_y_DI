@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="Servicio_Procesamiento/Servicio_Procesamiento.csproj" />
   <Project Path="Sistema_Gestion/Sistema_Gestion.csproj" />
 </Solution>

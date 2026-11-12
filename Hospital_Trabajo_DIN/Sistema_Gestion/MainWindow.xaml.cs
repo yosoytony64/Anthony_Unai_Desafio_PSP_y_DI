@@ -20,5 +20,15 @@ namespace Sistema_Gestion
         {
             InitializeComponent();
         }
+
+        private void Procesa(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
