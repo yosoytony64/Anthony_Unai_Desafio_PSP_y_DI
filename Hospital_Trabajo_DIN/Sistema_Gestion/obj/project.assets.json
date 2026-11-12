@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
+      "projectUniqueName": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
       "projectName": "Sistema_Gestion",
-      "projectPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
+      "projectPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Sistema_Gestion.csproj",
       "packagesPath": "C:\\Users\\y4994\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\obj\\",
+      "outputPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

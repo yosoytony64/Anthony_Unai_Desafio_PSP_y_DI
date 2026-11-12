@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\",
+  "WorkspaceRootPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46EA667B-7515-3834-2974-FA401831DCD4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|c:\\users\\y4994\\onedrive\\escritorio\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\servicio_procesamiento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{46EA667B-7515-3834-2974-FA401831DCD4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|c:\\users\\y4994\\onedrive\\escritorio\\desafio psp-di\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\servicio_procesamiento\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EA667B-7515-3834-2974-FA401831DCD4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|solutionrelative:servicio_procesamiento\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EA667B-7515-3834-2974-FA401831DCD4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|c:\\users\\y4994\\onedrive\\escritorio\\desafio psp-di\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\servicio_procesamiento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{46EA667B-7515-3834-2974-FA401831DCD4}|Servicio_Procesamiento\\Servicio_Procesamiento.csproj|solutionrelative:servicio_procesamiento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Servicio_Procesamiento\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "Servicio_Procesamiento\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAEwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T08:43:43.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Servicio_Procesamiento\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Servicio_Procesamiento\\MainWindow.xaml",
               "RelativeToolTip": "Servicio_Procesamiento\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-10-22T11:47:05.949Z",

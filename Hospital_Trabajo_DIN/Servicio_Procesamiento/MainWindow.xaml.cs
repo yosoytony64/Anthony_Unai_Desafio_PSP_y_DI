@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Microsoft.VisualBasic;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,23 @@ namespace Servicio_Procesamiento
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void guruguru(object sender, ExceptionRoutedEventArgs e)
+        {
+
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Gestion_Click(object sender, RoutedEventArgs e)
+        {
+            Sistema_Gestion.MainWindow gest = new Sistema_Gestion.MainWindow();
+            this.Close();
+            gest.ShowDialog();
         }
     }
 }
