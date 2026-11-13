@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\",
+  "WorkspaceRootPath": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\curso 26-27\\psp\\hospital_procesos\\hospital_procesos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F0F46A76-7F45-FD62-8268-8171982CB389}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\desafio psp-di\\anthony_unai_desafio_psp_y_di\\hospital_procesos\\hospital_procesos\\hospital_procesos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0F46A76-7F45-FD62-8268-8171982CB389}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\hospital_procesos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\curso 26-27\\psp\\hospital_procesos\\hospital_procesos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C049FAB8-1CF8-49B6-A382-07431A02F15D}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0F46A76-7F45-FD62-8268-8171982CB389}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\desafio psp-di\\anthony_unai_desafio_psp_y_di\\hospital_procesos\\hospital_procesos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F0F46A76-7F45-FD62-8268-8171982CB389}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0F46A76-7F45-FD62-8268-8171982CB389}|Hospital_procesos\\Hospital_procesos.csproj|c:\\users\\y4994\\onedrive\\escritorio\\desafio psp-di\\anthony_unai_desafio_psp_y_di\\hospital_procesos\\hospital_procesos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0F46A76-7F45-FD62-8268-8171982CB389}|Hospital_procesos\\Hospital_procesos.csproj|solutionrelative:hospital_procesos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +35,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Hospital_procesos\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml",
-              "RelativeToolTip": "Hospital_procesos\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-12T12:30:38.714Z",
-              "EditorCaption": ""
+              "Title": "Hospital_procesos",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\Hospital_procesos\\Hospital_procesos.csproj",
+              "RelativeDocumentMoniker": "Hospital_procesos\\Hospital_procesos.csproj",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\Hospital_procesos\\Hospital_procesos.csproj",
+              "RelativeToolTip": "Hospital_procesos\\Hospital_procesos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-13T11:54:43.483Z",
+              "EditorCaption": "",
+              "OwnerCaption": "Hospital_procesos"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Hospital_procesos\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml",
+              "RelativeToolTip": "Hospital_procesos\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-12T12:30:38.714Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Hospital_procesos\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Curso 26-27\\PSP\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\y4994\\OneDrive\\Escritorio\\Desafio PSP-DI\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_procesos\\Hospital_procesos\\MainWindow.xaml.cs",
               "RelativeToolTip": "Hospital_procesos\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T12:30:34.869Z",
-              "EditorCaption": ""
+              "OwnerCaption": "%2"
             }
           ]
         }
