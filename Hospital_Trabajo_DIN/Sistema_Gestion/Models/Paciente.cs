@@ -38,7 +38,7 @@ namespace Sistema_Gestion.Models
 
         public string NombreCompleto => $"{Nombre} {Apellidos}";
 
-        /// Edad en años cumplidos a día de hoy.
+        // Edad en años cumplidos a día de hoy.
         public int Edad
         {
             get

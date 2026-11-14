@@ -23,7 +23,7 @@ namespace Sistema_Gestion.Models
         public string? Email        { get => _email;          set => SetProperty(ref _email, value); }
         public int IdDepartamento  { get => _idDepartamento; set => SetProperty(ref _idDepartamento, value); }
 
-        /// Propiedad calculada (no existe en la BD)
+        // Propiedad calculada (no existe en la BD)
         public string NombreCompleto => $"{Nombre} {Apellidos}";
     }
 }
