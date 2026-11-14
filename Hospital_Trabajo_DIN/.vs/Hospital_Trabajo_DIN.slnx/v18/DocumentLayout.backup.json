@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\historialclinico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\historialclinico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +42,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prueba.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Prueba.cs",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Prueba.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Prueba.cs",
+              "RelativeToolTip": "Sistema_Gestion\\Models\\Prueba.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T20:25:44.824Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HistorialClinico.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\HistorialClinico.cs",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\HistorialClinico.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\HistorialClinico.cs",
+              "RelativeToolTip": "Sistema_Gestion\\Models\\HistorialClinico.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T20:06:41.679Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Departamento.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Departamento.cs",
@@ -47,12 +83,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:06:29.754Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Paciente.cs",
@@ -61,12 +96,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:00:43.273Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Medico.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Medico.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Medico.cs",
@@ -75,18 +109,17 @@
               "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:00:30.347Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Cita.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Cita.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Cita.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\Cita.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:00:11.885Z",
               "EditorCaption": "",
@@ -94,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\MainWindow.xaml.cs",
@@ -103,12 +136,11 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAqwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T12:11:59.575Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\MainWindow.xaml",
@@ -116,7 +148,6 @@
               "RelativeToolTip": "Sistema_Gestion\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-11-12T12:10:52.283Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             }
           ]

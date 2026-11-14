@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\helpers\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\helpers\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\resultadoprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\resultadoprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,12 +55,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Helpers\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\Helpers\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Helpers\\ObservableObject.cs",
+              "RelativeToolTip": "Sistema_Gestion\\Helpers\\ObservableObject.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T22:01:55.015Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultadoPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\ResultadoPrueba.cs",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\ResultadoPrueba.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\ResultadoPrueba.cs",
+              "RelativeToolTip": "Sistema_Gestion\\Models\\ResultadoPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T22:00:43.917Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Prueba.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Prueba.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Prueba.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Prueba.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\Prueba.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T20:25:44.824Z",
               "EditorCaption": "",
@@ -60,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HistorialClinico.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\HistorialClinico.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\HistorialClinico.cs",
@@ -69,12 +105,11 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T20:06:41.679Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Departamento.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Departamento.cs",
@@ -87,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Paciente.cs",
@@ -100,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Medico.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Medico.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Medico.cs",
@@ -113,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Cita.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Cita.cs",
@@ -122,12 +157,11 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:00:11.885Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\MainWindow.xaml.cs",
@@ -140,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\MainWindow.xaml",
