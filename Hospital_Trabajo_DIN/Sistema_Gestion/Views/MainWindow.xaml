@@ -3,49 +3,95 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Sistema_Gestion"
+        xmlns:vm="clr-namespace:Sistema_Gestion.ViewModels"
+        xmlns:views="clr-namespace:Sistema_Gestion.Views"
         mc:Ignorable="d"
-        Title="Sistema de Gestión" Height="450" Width="800">
+        Title="Hospital - Sistema de Gestión"
+        Height="720" Width="1200" MinHeight="600" MinWidth="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+
+        <!-- Cada ViewModel se dibuja con su View: si VistaActual es un PacientesViewModel,
+             el ContentControl muestra PacientesView -->
+        <DataTemplate DataType="{x:Type vm:PacientesViewModel}">
+            <views:PacientesView/>
+        </DataTemplate>
+
+        <!-- Estilo de los botones del menú lateral -->
+        <Style x:Key="BotonMenu" TargetType="Button">
+            <Setter Property="Height" Value="46"/>
+            <Setter Property="Margin" Value="14,6"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Fondo" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center" Margin="18,0"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Fondo" Property="Background" Value="#2A5C96"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Botón de la sección actual (resaltado) -->
+        <Style x:Key="BotonMenuActivo" TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+            <Setter Property="Background" Value="#2F6FED"/>
+        </Style>
+
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
-
-            <ColumnDefinition Width="220"/>
-
-
-            <ColumnDefinition Width="1"/>
+            <ColumnDefinition Width="230"/>
+            <!-- menú lateral: ancho fijo -->
+            <ColumnDefinition Width="*"/>
+            <!-- contenido: ocupa el resto -->
         </Grid.ColumnDefinitions>
 
+        <!-- Menú lateral -->
+        <DockPanel Grid.Column="0" Background="#173B67" LastChildFill="True">
 
-        <StackPanel Grid.Column="0"
-        Background="#173B67">
+            <!-- Pie del menú (abajo) -->
+            <StackPanel DockPanel.Dock="Bottom" Margin="20,0,0,18">
+                <TextBlock Text="Sistema de Gestión" Foreground="#9FB6D6" FontSize="12"/>
+                <TextBlock Text="v1.0.0" Foreground="#9FB6D6" FontSize="12" Margin="0,2,0,0"/>
+            </StackPanel>
 
-            <Image Source="/imagenes/logo.png"
-   Width="110"
-   Height="110"
-   Margin="0,25,0,30"
-   Stretch="Uniform"
-   HorizontalAlignment="Center" ImageFailed="guruguru"/>
+            <!-- Logo y botones (arriba) -->
+            <StackPanel>
+                <Image Source="/imagenes/logo.png"
+                       Width="110" Height="110"
+                       Margin="0,25,0,10"
+                       Stretch="Uniform"
+                       HorizontalAlignment="Center"/>
 
-            <Button x:Name="Gestion" Content="Gestión"
-    Height="50"
-    Margin="10,10,10,15" Click="Gestion_Click"/>
+                <TextBlock Text="Hospital"
+                           Foreground="White" FontSize="22" FontWeight="Bold"
+                           HorizontalAlignment="Center" Margin="0,0,0,28"/>
 
-            <Button Content="Procesamiento"
-    Height="50"
-    Margin="10,0,10,15" Click="Procesa"/>
+                <Button Content="Gestión"
+                        Style="{StaticResource BotonMenuActivo}"
+                        Command="{Binding MostrarGestionCommand}"/>
 
-            <Button x:Name="Exit" Content="Salir"
-    Height="50"
-    Margin="10,0,10,15" Click="Exit_Click"/>
+                <Button Content="Salir"
+                        Style="{StaticResource BotonMenu}"
+                        Command="{Binding SalirCommand}"/>
+            </StackPanel>
+        </DockPanel>
 
-        </StackPanel>
-
-
-        <Grid Grid.Column="1"
-  Background="#F3F6FA">
-
-
-
+        <!-- Zona de contenido -->
+        <Grid Grid.Column="1" Background="#F3F6FA">
+            <ContentControl Content="{Binding VistaActual}"/>
         </Grid>
     </Grid>
 </Window>
