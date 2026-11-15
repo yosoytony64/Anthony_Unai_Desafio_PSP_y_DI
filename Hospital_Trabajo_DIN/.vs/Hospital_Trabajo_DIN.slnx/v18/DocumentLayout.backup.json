@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\resultadoprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\resultadoprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\historialclinico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\historialclinico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -13,50 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\helpers\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\helpers\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\resultadoprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\resultadoprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\historialclinico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\historialclinico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|c:\\users\\ipadr\\desktop\\trabajo_din\\anthony_unai_desafio_psp_y_di\\hospital_trabajo_din\\sistema_gestion\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CF5817-A7A2-929F-1E53-D1897A0B620D}|Sistema_Gestion\\Sistema_Gestion.csproj|solutionrelative:sistema_gestion\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,79 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PacientesView.xaml",
-              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\PacientesView.xaml",
-              "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\PacientesView.xaml",
-              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\PacientesView.xaml",
-              "RelativeToolTip": "Sistema_Gestion\\Views\\PacientesView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-15T02:53:09.106Z",
-              "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\App.xaml",
-              "RelativeDocumentMoniker": "Sistema_Gestion\\App.xaml",
-              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\App.xaml",
-              "RelativeToolTip": "Sistema_Gestion\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-15T01:40:41.548Z",
-              "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\ViewModels\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "Sistema_Gestion\\ViewModels\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\ViewModels\\ViewModelBase.cs",
-              "RelativeToolTip": "Sistema_Gestion\\ViewModels\\ViewModelBase.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:39:23.77Z",
-              "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Sistema_Gestion\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\App.xaml.cs",
-              "RelativeToolTip": "Sistema_Gestion\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:36:15.842Z",
-              "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ObservableObject.cs",
-              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Helpers\\ObservableObject.cs",
-              "RelativeDocumentMoniker": "Sistema_Gestion\\Helpers\\ObservableObject.cs",
-              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Helpers\\ObservableObject.cs",
-              "RelativeToolTip": "Sistema_Gestion\\Helpers\\ObservableObject.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:01:55.015Z",
-              "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\MainWindow.xaml",
@@ -151,20 +67,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "HistorialClinico.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\HistorialClinico.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\HistorialClinico.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\HistorialClinico.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\HistorialClinico.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T20:06:41.679Z",
+              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\MainWindow.xaml.cs",
@@ -173,12 +90,11 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T12:11:59.575Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ResultadoPrueba.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\ResultadoPrueba.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\ResultadoPrueba.cs",
@@ -187,71 +103,89 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T22:00:43.917Z",
+              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Prueba.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Prueba.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Prueba.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Prueba.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\Prueba.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T20:25:44.824Z",
+              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Departamento.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Departamento.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Departamento.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\Departamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:06:29.754Z",
+              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Paciente.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Paciente.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Paciente.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\Paciente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:00:43.273Z",
+              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Medico.cs",
-              "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Medico.cs",
-              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Medico.cs",
-              "RelativeToolTip": "Sistema_Gestion\\Models\\Medico.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T19:00:30.347Z",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Cita.cs",
               "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Cita.cs",
               "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Cita.cs",
               "RelativeToolTip": "Sistema_Gestion\\Models\\Cita.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T19:00:11.885Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\Models\\Medico.cs",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Models\\Medico.cs",
+              "RelativeToolTip": "Sistema_Gestion\\Models\\Medico.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T19:00:30.347Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PacientesView.xaml",
+              "DocumentMoniker": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\PacientesView.xaml",
+              "RelativeDocumentMoniker": "Sistema_Gestion\\Views\\PacientesView.xaml",
+              "ToolTip": "C:\\Users\\ipadr\\Desktop\\TRABAJO_DIN\\Anthony_Unai_Desafio_PSP_y_DI\\Hospital_Trabajo_DIN\\Sistema_Gestion\\Views\\PacientesView.xaml",
+              "RelativeToolTip": "Sistema_Gestion\\Views\\PacientesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-15T02:53:09.106Z",
               "OwnerCaption": "%2"
             }
           ]
