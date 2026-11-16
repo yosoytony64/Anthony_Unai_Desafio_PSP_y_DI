@@ -5,15 +5,15 @@ using Sistema_Gestion.Helpers;
 
 namespace Sistema_Gestion.ViewModels
 {
-    /// <summary>
-    /// Clase base de todos los ViewModels. Hereda de ObservableObject,
-    /// por lo que ya trae INotifyPropertyChanged.
-    /// </summary>
+
+    // Clase base de todos los ViewModels. Hereda de ObservableObject,
+    // por lo que ya trae INotifyPropertyChanged.
+
     public abstract class ViewModelBase : ObservableObject
     {
         private string _mensajeEstado = "";
 
-        /// <summary>Texto para mostrar al usuario (éxito, errores de validación...).</summary>
+        // Texto para mostrar al usuario (éxito, errores de validación...).
         public string MensajeEstado
         {
             get => _mensajeEstado;

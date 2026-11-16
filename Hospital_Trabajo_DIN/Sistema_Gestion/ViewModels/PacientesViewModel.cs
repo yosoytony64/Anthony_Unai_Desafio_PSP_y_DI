@@ -11,16 +11,16 @@ using Sistema_Gestion.Models;
 
 namespace Sistema_Gestion.ViewModels
 {
-    /// <summary>
-    /// ViewModel de la pantalla de pacientes. Contiene:
-    ///  - los datos que muestra la View (lista, seleccionado, formulario),
-    ///  - los comandos de los botones (Nuevo, Guardar, Eliminar, Cancelar),
-    ///  - la validación previa a guardar.
-    /// No conoce ningún control WPF: la View se enlaza a él con Data Binding.
-    /// </summary>
+
+    // ViewModel de la pantalla de pacientes. Contiene:
+    //  - los datos que muestra la View (lista, seleccionado, formulario),
+    //  - los comandos de los botones (Nuevo, Guardar, Eliminar, Cancelar),
+    //  - la validación previa a guardar.
+    // No conoce ningún control WPF: la View se enlaza a él con Data Binding.
+    
     public class PacientesViewModel : ViewModelBase
     {
-        // ============ Campos privados ============
+        // Campos privados
 
         private readonly PacienteRepository _repositorio = new();
 
@@ -29,28 +29,28 @@ namespace Sistema_Gestion.ViewModels
         private bool _esNuevo = true;              // true = creando, false = editando
         private string _textoBusqueda = "";
 
-        // Expresiones regulares: son las MISMAS reglas que los CHECK de la BD.
+        // Expresiones regulares: son las mismas reglas que los Check de la BD.
         private static readonly Regex RegexDni = new(@"^[0-9XYZ][0-9]{7}[A-Z]$");
         private static readonly Regex RegexTelefono = new(@"^[0-9]{9}$");
         private static readonly Regex RegexEmail = new(@"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$");
         private static readonly Regex RegexGrupo = new(@"^(A|B|AB|O)[+-]$");
 
-        // ============ Propiedades enlazadas a la View ============
+        // Propiedades enlazadas a la View
 
-        /// <summary>Todos los pacientes. ObservableCollection avisa al DataGrid si se añade o quita uno.</summary>
+        // Todos los pacientes. ObservableCollection avisa al DataGrid si se añade o quita uno.
         public ObservableCollection<Paciente> Pacientes { get; } = new();
 
-        /// <summary>Vista de la lista con filtro (buscador). Es la que usa el DataGrid como ItemsSource.</summary>
-        public ICollectionView PacientesVista { get; }
+        // Vista de la lista con filtro (buscador). Es la que usa el DataGrid como ItemsSource.
+        public ICollectionView PacientesVista { get; }  
 
-        /// <summary>Opciones para los ComboBox.</summary>
+        // Opciones para los ComboBox.
         public string[] Generos { get; } = { "Femenino", "Masculino", "Otro" };
         public string[] GruposSanguineos { get; } = { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" };
 
-        /// <summary>Para la tarjeta "Pacientes registrados" del panel.</summary>
+        // Para la tarjeta "Pacientes registrados" del panel.
         public int TotalPacientes => Pacientes.Count;
 
-        /// <summary>Paciente seleccionado en el DataGrid (SelectedItem, TwoWay).</summary>
+        // Paciente seleccionado en el DataGrid (SelectedItem, TwoWay).
         public Paciente? PacienteSeleccionado
         {
             get => _pacienteSeleccionado;
@@ -67,7 +67,7 @@ namespace Sistema_Gestion.ViewModels
             }
         }
 
-        /// <summary>Paciente que se está editando en el formulario (copia).</summary>
+        // Paciente que se está editando en el formulario (copia).
         public Paciente PacienteEdicion
         {
             get => _pacienteEdicion;
@@ -86,7 +86,7 @@ namespace Sistema_Gestion.ViewModels
 
         public string TituloFormulario => EsNuevo ? "Nuevo paciente" : "Editar paciente";
 
-        /// <summary>Texto del buscador. Cada vez que cambia, se vuelve a aplicar el filtro.</summary>
+        // Texto del buscador. Cada vez que cambia, se vuelve a aplicar el filtro.
         public string TextoBusqueda
         {
             get => _textoBusqueda;
@@ -97,14 +97,14 @@ namespace Sistema_Gestion.ViewModels
             }
         }
 
-        // ============ Comandos (los botones de la View) ============
+        // Comandos (los botones de la View)
 
         public ICommand NuevoCommand { get; }
         public ICommand GuardarCommand { get; }
         public ICommand EliminarCommand { get; }
         public ICommand CancelarCommand { get; }
 
-        // ============ Constructor ============
+        // Constructor
 
         public PacientesViewModel()
         {
@@ -124,9 +124,9 @@ namespace Sistema_Gestion.ViewModels
             CargarPacientes();
         }
 
-        // ============ Operaciones CRUD ============
+        // Operaciones CRUD
 
-        /// <summary>READ: carga los pacientes desde la BD a la colección.</summary>
+        // READ: carga los pacientes desde la BD a la colección.
         private void CargarPacientes()
         {
             try
@@ -141,7 +141,7 @@ namespace Sistema_Gestion.ViewModels
             }
         }
 
-        /// <summary>Prepara el formulario vacío para crear un paciente.</summary>
+        // Prepara el formulario vacío para crear un paciente.
         private void Nuevo()
         {
             PacienteSeleccionado = null;       // deselecciona la fila
@@ -150,7 +150,7 @@ namespace Sistema_Gestion.ViewModels
             MensajeEstado = "";
         }
 
-        /// <summary>CREATE o UPDATE según EsNuevo, siempre validando antes.</summary>
+        // CREATE o UPDATE según EsNuevo, siempre validando antes.
         private void Guardar()
         {
             // Normalizamos el DNI (sin espacios y en mayúsculas) antes de validar.
@@ -167,7 +167,7 @@ namespace Sistema_Gestion.ViewModels
 
                 if (EsNuevo)
                 {
-                    // CREATE: insertamos y recogemos el id que generó MySQL.
+                    // Insertamos y recogemos el id que genero MySQL.
                     int id = _repositorio.Insertar(PacienteEdicion);
 
                     var nuevo = Clonar(PacienteEdicion);
@@ -177,7 +177,7 @@ namespace Sistema_Gestion.ViewModels
                 }
                 else
                 {
-                    // UPDATE: actualizamos la BD y luego el objeto de la tabla.
+                    // Actualizamos la BD y luego el objeto de la tabla.
                     _repositorio.Actualizar(PacienteEdicion);
                     CopiarValores(PacienteEdicion, PacienteSeleccionado!);
                 }
@@ -190,7 +190,7 @@ namespace Sistema_Gestion.ViewModels
             }
         }
 
-        /// <summary>DELETE: pide confirmación y borra al paciente seleccionado.</summary>
+        // Pide confirmación y borra al paciente seleccionado.
         private void Eliminar()
         {
             if (PacienteSeleccionado == null) return;
@@ -217,7 +217,7 @@ namespace Sistema_Gestion.ViewModels
             }
         }
 
-        /// <summary>Descarta los cambios del formulario.</summary>
+        // Descarta los cambios del formulario.
         private void Cancelar()
         {
             if (PacienteSeleccionado != null)
@@ -227,12 +227,11 @@ namespace Sistema_Gestion.ViewModels
             MensajeEstado = "";
         }
 
-        // ============ Validación ============
+        // Validación 
 
-        /// <summary>
-        /// Comprueba todas las reglas. Devuelve el texto del primer error
-        /// encontrado, o null si los datos son correctos.
-        /// </summary>
+        // Comprueba todas las reglas. Devuelve el texto del primer error
+        // encontrado, o null si los datos son correctos.
+        
         private string? Validar(Paciente p)
         {
             // Campos obligatorios (NOT NULL en la BD).
@@ -267,10 +266,9 @@ namespace Sistema_Gestion.ViewModels
             return null; // todo correcto
         }
 
-        /// <summary>
-        /// Comprueba la letra del DNI/NIE: número módulo 23 -> posición en la cadena de letras.
-        /// En un NIE, X, Y y Z se sustituyen por 0, 1 y 2.
-        /// </summary>
+        // Comprueba la letra del DNI/NIE -> posición en la cadena de letras.
+        // En un NIE, X, Y y Z se sustituyen por 0, 1 y 2.
+
         private static bool LetraDniCorrecta(string dni)
         {
             const string letras = "TRWAGMYFPDXBNJZSQVHLCKE";
@@ -287,9 +285,9 @@ namespace Sistema_Gestion.ViewModels
             return letras[numero % 23] == dni[8];
         }
 
-        // ============ Buscador ============
+        // Buscador 
 
-        /// <summary>Decide si una fila se muestra: coincide con nombre, DNI o teléfono.</summary>
+        // Decide si una fila se muestra: coincide con nombre, DNI o teléfono.
         private bool FiltrarPaciente(object obj)
         {
             if (obj is not Paciente p) return false;
@@ -301,9 +299,9 @@ namespace Sistema_Gestion.ViewModels
                 || (p.Telefono?.Contains(texto, StringComparison.OrdinalIgnoreCase) ?? false);
         }
 
-        // ============ Utilidades ============
+        // Utilidades 
 
-        /// <summary>Crea una copia independiente de un paciente.</summary>
+        // Crea una copia independiente de un paciente.
         private static Paciente Clonar(Paciente o)
         {
             var copia = new Paciente();
@@ -311,7 +309,7 @@ namespace Sistema_Gestion.ViewModels
             return copia;
         }
 
-        /// <summary>Copia todos los valores de un paciente a otro.</summary>
+        // Copia todos los valores de un paciente a otro.
         private static void CopiarValores(Paciente origen, Paciente destino)
         {
             destino.IdPaciente = origen.IdPaciente;
@@ -326,11 +324,10 @@ namespace Sistema_Gestion.ViewModels
             destino.GrupoSanguineo = origen.GrupoSanguineo;
         }
 
-        /// <summary>
-        /// Convierte los errores en mensajes que entienda el usuario. EF Core envuelve el error
-        /// real de MySQL dentro de otra excepción (DbUpdateException), así que recorremos
-        /// las excepciones internas hasta encontrar la MySqlException original.
-        /// </summary>
+        // Convierte los errores en mensajes que entienda el usuario. EntityFrameworkCore envuelve el error
+        // real de MySQL dentro de otra excepción (DbUpdateException), así que recorremos
+        // las excepciones internas hasta encontrar la MySqlException original.
+
         private static string TraducirError(Exception ex)
         {
             Exception? actual = ex;
