@@ -4,10 +4,10 @@ using Sistema_Gestion.Helpers;
 
 namespace Sistema_Gestion.ViewModels
 {
-    /// <summary>
-    /// ViewModel de la ventana principal. Decide QUÉ pantalla se muestra en la zona
-    /// de contenido (VistaActual) y gestiona los botones del menú lateral.
-    /// </summary>
+
+    // ViewModel de la ventana principal. Decide QUÉ pantalla se muestra en la zona
+    // de contenido (VistaActual) y gestiona los botones del menú lateral.
+    
     public class MainViewModel : ViewModelBase
     {
         private object? _vistaActual;
@@ -15,10 +15,9 @@ namespace Sistema_Gestion.ViewModels
         // ViewModel de la pantalla de pacientes (se crea una vez y se reutiliza).
         private readonly PacientesViewModel _pacientesViewModel;
 
-        /// <summary>
-        /// ViewModel de la pantalla visible. La ventana lo muestra con un ContentControl
-        /// y un DataTemplate elige automáticamente la View que le corresponde.
-        /// </summary>
+        // ViewModel de la pantalla visible. La ventana lo muestra con un ContentControl
+        // y un DataTemplate elige automáticamente la View que le corresponde.
+        
         public object? VistaActual
         {
             get => _vistaActual;
