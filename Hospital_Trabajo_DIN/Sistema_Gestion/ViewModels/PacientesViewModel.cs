@@ -4,7 +4,6 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Data;
 using System.Windows.Input;
-using MySql.Data.MySqlClient;
 using Sistema_Gestion.Data;
 using Sistema_Gestion.Helpers;
 using Sistema_Gestion.Models;
@@ -126,7 +125,7 @@ namespace Sistema_Gestion.ViewModels
 
         // Operaciones CRUD
 
-        // READ: carga los pacientes desde la BD a la colección.
+        // LEE: carga los pacientes desde la BD a la colección.
         private void CargarPacientes()
         {
             try
@@ -150,7 +149,7 @@ namespace Sistema_Gestion.ViewModels
             MensajeEstado = "";
         }
 
-        // CREATE o UPDATE según EsNuevo, siempre validando antes.
+        // CREAR o ACTUALIZAR según EsNuevo, siempre validando antes.
         private void Guardar()
         {
             // Normalizamos el DNI (sin espacios y en mayúsculas) antes de validar.
@@ -186,7 +185,7 @@ namespace Sistema_Gestion.ViewModels
             }
             catch (Exception ex)
             {
-                MensajeEstado = TraducirError(ex);
+                MensajeEstado = ErroresBD.Traducir(ex);
             }
         }
 
@@ -213,7 +212,7 @@ namespace Sistema_Gestion.ViewModels
             }
             catch (Exception ex)
             {
-                MensajeEstado = TraducirError(ex);
+                MensajeEstado = ErroresBD.Traducir(ex);
             }
         }
 
@@ -322,30 +321,6 @@ namespace Sistema_Gestion.ViewModels
             destino.Email = origen.Email;
             destino.Direccion = origen.Direccion;
             destino.GrupoSanguineo = origen.GrupoSanguineo;
-        }
-
-        // Convierte los errores en mensajes que entienda el usuario. EntityFrameworkCore envuelve el error
-        // real de MySQL dentro de otra excepción (DbUpdateException), así que recorremos
-        // las excepciones internas hasta encontrar la MySqlException original.
-
-        private static string TraducirError(Exception ex)
-        {
-            Exception? actual = ex;
-            while (actual != null && actual is not MySqlException)
-                actual = actual.InnerException;
-
-            if (actual is MySqlException mysql)
-            {
-                return mysql.Number switch
-                {
-                    1062 => "Ya existe un registro con ese valor único (por ejemplo, el DNI).",
-                    3819 => "Algún dato no cumple las reglas de la base de datos (teléfono, email o grupo sanguíneo).",
-                    1451 => "No se puede eliminar porque tiene datos relacionados.",
-                    _ => "Error de base de datos: " + mysql.Message
-                };
-            }
-
-            return "Error: " + ex.Message;
         }
     }
 }
