@@ -12,10 +12,12 @@
 
     <Window.Resources>
 
-        <!-- Cada ViewModel se dibuja con su View: si VistaActual es un PacientesViewModel,
-             el ContentControl muestra PacientesView -->
+        <!-- Cada ViewModel se dibuja con su View -->
         <DataTemplate DataType="{x:Type vm:PacientesViewModel}">
             <views:PacientesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CitasViewModel}">
+            <views:CitasView/>
         </DataTemplate>
 
         <!-- Estilo de los botones del menú lateral -->
@@ -41,11 +43,6 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-        </Style>
-
-        <!-- Botón de la sección actual (resaltado) -->
-        <Style x:Key="BotonMenuActivo" TargetType="Button" BasedOn="{StaticResource BotonMenu}">
-            <Setter Property="Background" Value="#2F6FED"/>
         </Style>
 
     </Window.Resources>
@@ -79,9 +76,30 @@
                            Foreground="White" FontSize="22" FontWeight="Bold"
                            HorizontalAlignment="Center" Margin="0,0,0,28"/>
 
-                <Button Content="Gestión"
-                        Style="{StaticResource BotonMenuActivo}"
-                        Command="{Binding MostrarGestionCommand}"/>
+                <!-- El botón de la sección activa se resalta con un DataTrigger -->
+                <Button Content="Pacientes" Command="{Binding MostrarPacientesCommand}">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SeccionActual}" Value="Pacientes">
+                                    <Setter Property="Background" Value="#2F6FED"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button Content="Citas" Command="{Binding MostrarCitasCommand}">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SeccionActual}" Value="Citas">
+                                    <Setter Property="Background" Value="#2F6FED"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
 
                 <Button Content="Salir"
                         Style="{StaticResource BotonMenu}"
