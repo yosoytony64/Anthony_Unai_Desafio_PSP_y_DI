@@ -1,8 +1,3 @@
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.csproj.AssemblyReference.cache
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\App.g.cs
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion_MarkupCompile.cache
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion_MarkupCompile.lref
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\bin\Debug\net10.0-windows\Sistema_Gestion.exe
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\bin\Debug\net10.0-windows\Sistema_Gestion.deps.json
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\bin\Debug\net10.0-windows\Sistema_Gestion.runtimeconfig.json
@@ -34,6 +29,18 @@ C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabaj
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.csproj.AssemblyReference.cache
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\CitasView.baml
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\Estilos.baml
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\PacientesView.baml
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\CitasView.g.cs
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\PacientesView.g.cs
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion_MarkupCompile.cache
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion_MarkupCompile.lref
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\App.baml
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\MainWindow.baml
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.g.resources
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.GeneratedMSBuildEditorConfig.editorconfig
@@ -47,6 +54,3 @@ C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabaj
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.pdb
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.genruntimeconfig.cache
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\ref\Sistema_Gestion.dll
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\PacientesView.baml
-C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\PacientesView.g.cs

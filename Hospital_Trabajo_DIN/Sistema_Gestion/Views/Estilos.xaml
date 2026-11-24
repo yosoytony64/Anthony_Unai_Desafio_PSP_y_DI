@@ -1,0 +1,111 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Colores -->
+    <SolidColorBrush x:Key="ColorPrimario" Color="#2F6FED"/>
+    <SolidColorBrush x:Key="ColorPeligro" Color="#D93025"/>
+    <SolidColorBrush x:Key="ColorTexto" Color="#1B2A41"/>
+    <SolidColorBrush x:Key="ColorTextoSuave" Color="#6B7A90"/>
+    <SolidColorBrush x:Key="ColorBorde" Color="#E1E8F0"/>
+
+    <!-- Tarjeta (Border con esquinas redondeadas) -->
+    <Style x:Key="Tarjeta" TargetType="Border">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ColorBorde}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="16"/>
+    </Style>
+
+    <!-- Textos -->
+    <Style x:Key="Titulo" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="{StaticResource ColorTexto}"/>
+    </Style>
+    <Style x:Key="Subtitulo" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Foreground" Value="{StaticResource ColorTextoSuave}"/>
+    </Style>
+    <Style x:Key="Etiqueta" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Foreground" Value="{StaticResource ColorTextoSuave}"/>
+        <Setter Property="Margin" Value="0,0,0,3"/>
+    </Style>
+
+    <!-- Controles de entrada (estilo implícito: afecta a todos los del tipo) -->
+    <Style TargetType="TextBox">
+        <Setter Property="Height" Value="32"/>
+        <Setter Property="Margin" Value="0,0,0,10"/>
+        <Setter Property="Padding" Value="6,0"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="BorderBrush" Value="#C9D3E0"/>
+    </Style>
+    <Style TargetType="ComboBox">
+        <Setter Property="Height" Value="32"/>
+        <Setter Property="Margin" Value="0,0,0,10"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+    <Style TargetType="DatePicker">
+        <Setter Property="Height" Value="32"/>
+        <Setter Property="Margin" Value="0,0,0,10"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+
+    <!-- Botones -->
+    <Style x:Key="BotonBase" TargetType="Button">
+        <Setter Property="Height" Value="36"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Fondo"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="6">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Fondo" Property="Opacity" Value="0.85"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="Fondo" Property="Opacity" Value="0.4"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="BotonPrimario" TargetType="Button" BasedOn="{StaticResource BotonBase}">
+        <Setter Property="Background" Value="{StaticResource ColorPrimario}"/>
+    </Style>
+    <Style x:Key="BotonPeligro" TargetType="Button" BasedOn="{StaticResource BotonBase}">
+        <Setter Property="Background" Value="{StaticResource ColorPeligro}"/>
+    </Style>
+    <Style x:Key="BotonSecundario" TargetType="Button" BasedOn="{StaticResource BotonBase}">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="{StaticResource ColorPrimario}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ColorPrimario}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+    </Style>
+
+    <!-- DataGrid -->
+    <Style x:Key="CabeceraGrid" TargetType="DataGridColumnHeader">
+        <Setter Property="Background" Value="#EEF3FA"/>
+        <Setter Property="Foreground" Value="{StaticResource ColorTextoSuave}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Padding" Value="10,0"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="CeldaTexto" TargetType="TextBlock">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="10,0"/>
+    </Style>
+
+</ResourceDictionary>
