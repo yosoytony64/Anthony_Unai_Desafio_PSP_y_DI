@@ -29,7 +29,7 @@ namespace Sistema_Gestion.ViewModels
         private bool _esNuevo = true;              // true = creando, false = editando
         private string _textoBusqueda = "";
 
-        // Expresiones regulares: son las mismas reglas que los Check de la BD.
+        // Son las mismas reglas que los Check de la BD.
         private static readonly Regex RegexDni = new(@"^[0-9XYZ][0-9]{7}[A-Z]$");
         private static readonly Regex RegexTelefono = new(@"^[0-9]{9}$");
         private static readonly Regex RegexEmail = new(@"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$");
