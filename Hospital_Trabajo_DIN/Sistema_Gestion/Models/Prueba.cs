@@ -20,5 +20,8 @@ namespace Sistema_Gestion.Models
         public string? ValoresReferencia { get => _valoresReferencia; set => SetProperty(ref _valoresReferencia, value); }
         public decimal? Precio { get => _precio; set => SetProperty(ref _precio, value); }
         public int IdDepartamento { get => _idDepartamento; set => SetProperty(ref _idDepartamento, value); }
+
+        // Texto para mostrar en el ComboBox (solo lectura, no es una columna de la tabla).
+        public string Etiqueta => $"{Codigo} - {NombrePrueba}";
     }
 }
