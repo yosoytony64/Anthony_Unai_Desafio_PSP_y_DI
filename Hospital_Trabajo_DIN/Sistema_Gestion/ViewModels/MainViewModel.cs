@@ -14,6 +14,7 @@ namespace Sistema_Gestion.ViewModels
         // Un ViewModel por pantalla; se crean una vez y se reutilizan.
         private readonly PacientesViewModel _pacientesViewModel;
         private readonly CitasViewModel _citasViewModel;
+        private readonly PruebasViewModel _pruebasViewModel;
 
         // ViewModel de la pantalla visible. La ventana lo muestra con un ContentControl
         // y un DataTemplate elige la View que le corresponde.
@@ -32,12 +33,14 @@ namespace Sistema_Gestion.ViewModels
 
         public ICommand MostrarPacientesCommand { get; }
         public ICommand MostrarCitasCommand { get; }
+        public ICommand MostrarLaboratorioCommand { get; }
         public ICommand SalirCommand { get; }
 
         public MainViewModel()
         {
             _pacientesViewModel = new PacientesViewModel();
             _citasViewModel = new CitasViewModel();
+            _pruebasViewModel = new PruebasViewModel();
 
             MostrarPacientesCommand = new RelayCommand(_ =>
             {
@@ -51,6 +54,13 @@ namespace Sistema_Gestion.ViewModels
                 _citasViewModel.CargarDatos();
                 SeccionActual = "Citas";
                 VistaActual = _citasViewModel;
+            });
+
+            MostrarLaboratorioCommand = new RelayCommand(_ =>
+            {
+                _pruebasViewModel.CargarDatos();
+                SeccionActual = "Laboratorio";
+                VistaActual = _pruebasViewModel;
             });
 
             SalirCommand = new RelayCommand(_ => Application.Current.Shutdown());

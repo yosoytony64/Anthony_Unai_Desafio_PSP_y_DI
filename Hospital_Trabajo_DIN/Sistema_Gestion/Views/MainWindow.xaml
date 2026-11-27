@@ -19,6 +19,9 @@
         <DataTemplate DataType="{x:Type vm:CitasViewModel}">
             <views:CitasView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:PruebasViewModel}">
+            <views:PruebasView/>
+        </DataTemplate>
 
         <!-- Estilo de los botones del menú lateral -->
         <Style x:Key="BotonMenu" TargetType="Button">
@@ -94,6 +97,18 @@
                         <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
                             <Style.Triggers>
                                 <DataTrigger Binding="{Binding SeccionActual}" Value="Citas">
+                                    <Setter Property="Background" Value="#2F6FED"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button Content="Laboratorio" Command="{Binding MostrarLaboratorioCommand}">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SeccionActual}" Value="Laboratorio">
                                     <Setter Property="Background" Value="#2F6FED"/>
                                 </DataTrigger>
                             </Style.Triggers>

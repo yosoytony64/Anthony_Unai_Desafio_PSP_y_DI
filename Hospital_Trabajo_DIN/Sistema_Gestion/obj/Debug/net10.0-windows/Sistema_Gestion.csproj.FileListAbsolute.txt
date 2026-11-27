@@ -54,3 +54,5 @@ C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabaj
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.pdb
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Sistema_Gestion.genruntimeconfig.cache
 C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\ref\Sistema_Gestion.dll
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\PruebasView.baml
+C:\Users\ipadr\Desktop\TRABAJO_DIN\Anthony_Unai_Desafio_PSP_y_DI\Hospital_Trabajo_DIN\Sistema_Gestion\obj\Debug\net10.0-windows\Views\PruebasView.g.cs
