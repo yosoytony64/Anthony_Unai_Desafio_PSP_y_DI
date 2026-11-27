@@ -3,15 +3,18 @@ using Sistema_Gestion.Models;
 
 namespace Sistema_Gestion.Data
 {
-    // Entity Framework Core: representa la sesión con la base de datos.
+
+    // Contexto de Entity Framework Core: representa la sesión con la base de datos.
     // Cada DbSet equivale a una tabla; aquí también se indica a qué tabla y
-    // columna de MySQL corresponde cada clase y propiedad.
+    // columna de MySQL corresponde cada clase y propiedad (mapeo).
+
     public class HospitalContext : DbContext
     {
+        // CAMBIA User ID / Password por los de tu MySQL.
         private const string CadenaConexion =
             "Server=localhost;Port=3306;Database=Hospital;User ID=root;Password=1234;";
 
-        //Una propiedad DbSet por tabla
+        // Una propiedad DbSet por tabla
         public DbSet<Departamento> Departamentos => Set<Departamento>();
         public DbSet<Medico> Medicos => Set<Medico>();
         public DbSet<Paciente> Pacientes => Set<Paciente>();
@@ -19,15 +22,31 @@ namespace Sistema_Gestion.Data
         public DbSet<HistorialClinico> Historiales => Set<HistorialClinico>();
         public DbSet<Prueba> Pruebas => Set<Prueba>();
         public DbSet<ResultadoPrueba> Resultados => Set<ResultadoPrueba>();
+        public DbSet<Usuario> Usuarios => Set<Usuario>();
 
-        // Indica a EntityFrameworkCore que use MySQL y con qué cadena de conexión.
+        // Indica a EF Core que use MySQL y con qué cadena de conexión.
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySQL(CadenaConexion);
         }
- 
+
+        // Mapeo clase -> tabla y propiedad -> columna (Fluent API).
+        // Hace falta porque en C# usamos PascalCase (IdPaciente) y en la BD snake_case (id_paciente).
+        // La BD ya está creada con el script SQL, por eso no usamos migraciones.
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Usuario>(e =>
+            {
+                e.ToTable("usuarios");
+                e.HasKey(x => x.IdUsuario);
+                e.Property(x => x.IdUsuario).HasColumnName("id_usuario");
+                e.Property(x => x.NombreUsuario).HasColumnName("nombre_usuario");
+                e.Property(x => x.PasswordHash).HasColumnName("password_hash");
+                e.Property(x => x.Rol).HasColumnName("rol");
+                e.Property(x => x.IdMedico).HasColumnName("id_medico");
+            });
+
             modelBuilder.Entity<Departamento>(e =>
             {
                 e.ToTable("departamentos");
@@ -126,7 +145,7 @@ namespace Sistema_Gestion.Data
 
         // Se ejecuta justo antes de guardar. Limpia los textos de todo lo que se va a
         // insertar o modificar: quita espacios y convierte "" en NULL en las columnas opcionales.
-        // Por que los CHECK de teléfono, email y grupo sanguíneo rechazan "" pero aceptan NULL.
+        // IMPORTANTE: los CHECK de teléfono, email y grupo sanguíneo rechazan "" pero aceptan NULL.
 
         public override int SaveChanges()
         {
