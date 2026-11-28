@@ -52,7 +52,7 @@ namespace Sistema_Gestion.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Sistema_Gestion;component/views/citasview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Sistema_Gestion;V1.0.0.0;component/views/citasview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CitasView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

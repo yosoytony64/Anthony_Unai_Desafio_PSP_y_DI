@@ -86,7 +86,7 @@ namespace Sistema_Gestion.ViewModels
 
             AcercaDeCommand = new RelayCommand(_ =>
                 MessageBox.Show(
-                    "Hospital - Sistema de Gestión\nVersión 1.0.0\n\nAutores: [escribe aquí los nombres de la pareja]",
+                    "Hospital - Sistema de Gestión\nVersión 1.0.0\n\nAutores: [Anthony y Unai]",
                     "Acerca de",
                     MessageBoxButton.OK,
                     MessageBoxImage.Information));
