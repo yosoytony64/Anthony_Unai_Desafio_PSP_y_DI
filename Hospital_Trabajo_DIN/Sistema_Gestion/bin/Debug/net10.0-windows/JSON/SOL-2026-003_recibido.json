@@ -1,0 +1,12 @@
+{
+  "idSolicitud": "SOL-2026-003",
+  "estado": "Procesada correctamente",
+  "resultados": [
+    {
+      "codigo": "COL",
+      "valorMedido": 12,
+      "unidad": "mg/dL",
+      "clasificacion": "Dentro del intervalo"
+    }
+  ]
+}

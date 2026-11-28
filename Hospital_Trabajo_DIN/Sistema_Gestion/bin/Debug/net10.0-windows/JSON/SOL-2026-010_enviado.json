@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-010",
+  "muestra": {
+    "idMuestra": "M-009",
+    "tipo": "Orina",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "TRI",
+      "valorMedido": 4,
+      "unidad": "mg/dL"
+    }
+  ]
+}

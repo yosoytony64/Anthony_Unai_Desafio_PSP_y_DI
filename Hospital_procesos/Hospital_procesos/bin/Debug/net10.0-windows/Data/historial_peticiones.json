@@ -1,0 +1,83 @@
+[
+  {
+    "idPeticion": "SOL-2026-014",
+    "fechaHora": "2026-11-28T14:37:40.4384743+01:00",
+    "tipoOperacion": "An\u00E1lisis de Laboratorio (Orina)",
+    "estadoFinal": "Procesada correctamente",
+    "errorTecnico": null,
+    "idMuestra": "M-013",
+    "tipoMuestra": "Orina",
+    "muestraValida": true,
+    "jsonRecibido": "{\r\n  \u0022idSolicitud\u0022: \u0022SOL-2026-014\u0022,\r\n  \u0022muestra\u0022: {\r\n    \u0022idMuestra\u0022: \u0022M-013\u0022,\r\n    \u0022tipo\u0022: \u0022Orina\u0022,\r\n    \u0022valida\u0022: true\r\n  },\r\n  \u0022pruebas\u0022: [\r\n    {\r\n      \u0022codigo\u0022: \u0022HBA\u0022,\r\n      \u0022valorMedido\u0022: 85,\r\n      \u0022unidad\u0022: \u0022%\u0022\r\n    }\r\n  ]\r\n}",
+    "jsonRespuesta": "{\r\n  \u0022idSolicitud\u0022: \u0022SOL-2026-014\u0022,\r\n  \u0022estado\u0022: \u0022Procesada correctamente\u0022,\r\n  \u0022resultados\u0022: [\r\n    {\r\n      \u0022codigo\u0022: \u0022HBA\u0022,\r\n      \u0022valorMedido\u0022: 85,\r\n      \u0022unidad\u0022: \u0022%\u0022,\r\n      \u0022clasificacion\u0022: \u0022Por encima del intervalo\u0022\r\n    }\r\n  ]\r\n}",
+    "pruebasRecibidas": [
+      {
+        "codigo": "HBA",
+        "valorMedido": 85,
+        "unidad": "%"
+      }
+    ],
+    "resultadosCalculados": [
+      {
+        "codigo": "HBA",
+        "valorMedido": 85,
+        "unidad": "%",
+        "clasificacion": "Por encima del intervalo"
+      }
+    ]
+  },
+  {
+    "idPeticion": "SOL-2026-012",
+    "fechaHora": "2026-11-28T14:26:35.4364932+01:00",
+    "tipoOperacion": "An\u00E1lisis de Laboratorio (Saliva)",
+    "estadoFinal": "Procesada correctamente",
+    "errorTecnico": null,
+    "idMuestra": "M-012",
+    "tipoMuestra": "Saliva",
+    "muestraValida": true,
+    "jsonRecibido": "{\r\n  \u0022idSolicitud\u0022: \u0022SOL-2026-012\u0022,\r\n  \u0022muestra\u0022: {\r\n    \u0022idMuestra\u0022: \u0022M-012\u0022,\r\n    \u0022tipo\u0022: \u0022Saliva\u0022,\r\n    \u0022valida\u0022: true\r\n  },\r\n  \u0022pruebas\u0022: [\r\n    {\r\n      \u0022codigo\u0022: \u0022HBA\u0022,\r\n      \u0022valorMedido\u0022: 48,\r\n      \u0022unidad\u0022: \u0022%\u0022\r\n    }\r\n  ]\r\n}",
+    "jsonRespuesta": "{\r\n  \u0022idSolicitud\u0022: \u0022SOL-2026-012\u0022,\r\n  \u0022estado\u0022: \u0022Procesada correctamente\u0022,\r\n  \u0022resultados\u0022: [\r\n    {\r\n      \u0022codigo\u0022: \u0022HBA\u0022,\r\n      \u0022valorMedido\u0022: 48,\r\n      \u0022unidad\u0022: \u0022%\u0022,\r\n      \u0022clasificacion\u0022: \u0022Fuera del intervalo\u0022\r\n    }\r\n  ]\r\n}",
+    "pruebasRecibidas": [
+      {
+        "codigo": "HBA",
+        "valorMedido": 48,
+        "unidad": "%"
+      }
+    ],
+    "resultadosCalculados": [
+      {
+        "codigo": "HBA",
+        "valorMedido": 48,
+        "unidad": "%",
+        "clasificacion": "Fuera del intervalo"
+      }
+    ]
+  },
+  {
+    "idPeticion": "SOL-2026-011",
+    "fechaHora": "2026-11-28T14:20:58.3653401+01:00",
+    "tipoOperacion": "An\u00E1lisis de Laboratorio (Suero)",
+    "estadoFinal": "Procesada correctamente",
+    "errorTecnico": null,
+    "idMuestra": "M-011",
+    "tipoMuestra": "Suero",
+    "muestraValida": true,
+    "jsonRecibido": "{\r\n  \u0022idSolicitud\u0022: \u0022SOL-2026-011\u0022,\r\n  \u0022muestra\u0022: {\r\n    \u0022idMuestra\u0022: \u0022M-011\u0022,\r\n    \u0022tipo\u0022: \u0022Suero\u0022,\r\n    \u0022valida\u0022: true\r\n  },\r\n  \u0022pruebas\u0022: [\r\n    {\r\n      \u0022codigo\u0022: \u0022ECG\u0022,\r\n      \u0022valorMedido\u0022: 23,\r\n      \u0022unidad\u0022: \u0022lpm\u0022\r\n    }\r\n  ]\r\n}",
+    "jsonRespuesta": "{\r\n  \u0022idSolicitud\u0022: \u0022SOL-2026-011\u0022,\r\n  \u0022estado\u0022: \u0022Procesada correctamente\u0022,\r\n  \u0022resultados\u0022: [\r\n    {\r\n      \u0022codigo\u0022: \u0022ECG\u0022,\r\n      \u0022valorMedido\u0022: 23,\r\n      \u0022unidad\u0022: \u0022lpm\u0022,\r\n      \u0022clasificacion\u0022: \u0022Fuera del intervalo\u0022\r\n    }\r\n  ]\r\n}",
+    "pruebasRecibidas": [
+      {
+        "codigo": "ECG",
+        "valorMedido": 23,
+        "unidad": "lpm"
+      }
+    ],
+    "resultadosCalculados": [
+      {
+        "codigo": "ECG",
+        "valorMedido": 23,
+        "unidad": "lpm",
+        "clasificacion": "Fuera del intervalo"
+      }
+    ]
+  }
+]

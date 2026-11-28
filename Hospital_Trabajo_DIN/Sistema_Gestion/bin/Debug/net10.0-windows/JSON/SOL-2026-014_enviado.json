@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-014",
+  "muestra": {
+    "idMuestra": "M-013",
+    "tipo": "Orina",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "HBA",
+      "valorMedido": 85,
+      "unidad": "%"
+    }
+  ]
+}

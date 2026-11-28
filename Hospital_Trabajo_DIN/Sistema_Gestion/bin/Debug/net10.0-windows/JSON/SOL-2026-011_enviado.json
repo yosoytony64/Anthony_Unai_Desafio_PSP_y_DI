@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-011",
+  "muestra": {
+    "idMuestra": "M-011",
+    "tipo": "Suero",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "ECG",
+      "valorMedido": 23,
+      "unidad": "lpm"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-007",
+  "muestra": {
+    "idMuestra": "M-007",
+    "tipo": "Suero",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "HBA",
+      "valorMedido": 34,
+      "unidad": "%"
+    }
+  ]
+}

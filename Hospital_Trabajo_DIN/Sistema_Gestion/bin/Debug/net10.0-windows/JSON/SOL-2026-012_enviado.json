@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-012",
+  "muestra": {
+    "idMuestra": "M-012",
+    "tipo": "Saliva",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "HBA",
+      "valorMedido": 48,
+      "unidad": "%"
+    }
+  ]
+}

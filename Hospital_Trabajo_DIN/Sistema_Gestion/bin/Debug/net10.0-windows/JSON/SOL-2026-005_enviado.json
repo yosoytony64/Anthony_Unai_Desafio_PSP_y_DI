@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-005",
+  "muestra": {
+    "idMuestra": "M-001",
+    "tipo": "Orina",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "COL",
+      "valorMedido": 67,
+      "unidad": "mg/dL"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "idSolicitud": "SOL-2026-014",
+  "estado": "Procesada correctamente",
+  "resultados": [
+    {
+      "codigo": "HBA",
+      "valorMedido": 85,
+      "unidad": "%",
+      "clasificacion": "Por encima del intervalo"
+    }
+  ]
+}

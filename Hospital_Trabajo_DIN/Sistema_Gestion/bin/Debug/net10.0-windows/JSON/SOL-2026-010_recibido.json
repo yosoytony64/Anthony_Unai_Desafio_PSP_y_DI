@@ -1,0 +1,12 @@
+{
+  "idSolicitud": "SOL-2026-010",
+  "estado": "Procesada correctamente",
+  "resultados": [
+    {
+      "codigo": "TRI",
+      "valorMedido": 4,
+      "unidad": "mg/dL",
+      "clasificacion": "Dentro del intervalo"
+    }
+  ]
+}

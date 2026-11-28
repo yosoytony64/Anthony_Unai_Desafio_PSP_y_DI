@@ -1,0 +1,12 @@
+{
+  "idSolicitud": "SOL-2026-006",
+  "estado": "Procesada correctamente",
+  "resultados": [
+    {
+      "codigo": "GLU",
+      "valorMedido": 43,
+      "unidad": "mg/dL",
+      "clasificacion": "Fuera del intervalo"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "idSolicitud": "SOL-2026-008",
+  "muestra": {
+    "idMuestra": "M-008",
+    "tipo": "Sangre",
+    "valida": true
+  },
+  "pruebas": [
+    {
+      "codigo": "GLU",
+      "valorMedido": 98,
+      "unidad": "mg/dL"
+    }
+  ]
+}

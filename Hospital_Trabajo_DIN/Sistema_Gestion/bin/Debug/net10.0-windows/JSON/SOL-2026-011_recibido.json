@@ -1,0 +1,12 @@
+{
+  "idSolicitud": "SOL-2026-011",
+  "estado": "Procesada correctamente",
+  "resultados": [
+    {
+      "codigo": "ECG",
+      "valorMedido": 23,
+      "unidad": "lpm",
+      "clasificacion": "Fuera del intervalo"
+    }
+  ]
+}
