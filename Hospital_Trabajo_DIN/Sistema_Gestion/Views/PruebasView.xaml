@@ -48,7 +48,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- ================= Columna izquierda: nueva solicitud ================= -->
+            <!-- Columna izquierda: nueva solicitud -->
             <Border Grid.Column="0" Style="{StaticResource Tarjeta}">
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel Margin="0,0,6,0">
@@ -151,7 +151,7 @@
                 </ScrollViewer>
             </Border>
 
-            <!-- ================= Columna derecha: respuesta y resultados guardados ================= -->
+            <!-- Columna derecha: respuesta y resultados guardados -->
             <Grid Grid.Column="2">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>

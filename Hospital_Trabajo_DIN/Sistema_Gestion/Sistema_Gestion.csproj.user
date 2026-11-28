@@ -5,6 +5,9 @@
     <Compile Update="Views\CitasView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\PacientesView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

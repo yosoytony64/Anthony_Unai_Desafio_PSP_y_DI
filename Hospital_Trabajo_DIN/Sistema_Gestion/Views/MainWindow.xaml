@@ -12,6 +12,9 @@
 
     <Window.Resources>
 
+        <!-- Convierte true/false en Visible/Collapsed -->
+        <BooleanToVisibilityConverter x:Key="BoolAVisible"/>
+
         <!-- Cada ViewModel se dibuja con su View -->
         <DataTemplate DataType="{x:Type vm:PacientesViewModel}">
             <views:PacientesView/>
@@ -50,81 +53,98 @@
 
     </Window.Resources>
 
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="230"/>
-            <!-- menú lateral: ancho fijo -->
-            <ColumnDefinition Width="*"/>
-            <!-- contenido: ocupa el resto -->
-        </Grid.ColumnDefinitions>
+    <DockPanel>
 
-        <!-- Menú lateral -->
-        <DockPanel Grid.Column="0" Background="#173B67" LastChildFill="True">
+        <!-- Menú superior -->
+        <Menu DockPanel.Dock="Top" Background="White" Padding="4,2">
+            <MenuItem Header="_Archivo">
+                <MenuItem Header="_Cerrar sesión" Command="{Binding CerrarSesionCommand}"/>
+                <Separator/>
+                <MenuItem Header="_Salir" Command="{Binding SalirCommand}"/>
+            </MenuItem>
+            <MenuItem Header="A_yuda">
+                <MenuItem Header="_Acerca de" Command="{Binding AcercaDeCommand}"/>
+            </MenuItem>
+        </Menu>
 
-            <!-- Pie del menú (abajo) -->
-            <StackPanel DockPanel.Dock="Bottom" Margin="20,0,0,18">
-                <TextBlock Text="Sistema de Gestión" Foreground="#9FB6D6" FontSize="12"/>
-                <TextBlock Text="v1.0.0" Foreground="#9FB6D6" FontSize="12" Margin="0,2,0,0"/>
-            </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="230"/>
+                <!-- menú lateral: ancho fijo -->
+                <ColumnDefinition Width="*"/>
+                <!-- contenido: ocupa el resto -->
+            </Grid.ColumnDefinitions>
 
-            <!-- Logo y botones (arriba) -->
-            <StackPanel>
-                <Image Source="/imagenes/logo.png"
+            <!-- Menú lateral -->
+            <DockPanel Grid.Column="0" Background="#173B67" LastChildFill="True">
+
+                <!-- Pie del menú (abajo) -->
+                <StackPanel DockPanel.Dock="Bottom" Margin="20,0,0,18">
+                    <TextBlock Text="Conectado como" Foreground="#9FB6D6" FontSize="12"/>
+                    <TextBlock Text="{Binding UsuarioTexto}" Foreground="White" FontSize="13" FontWeight="SemiBold" Margin="0,2,0,0"/>
+                    <TextBlock Text="v1.0.0" Foreground="#9FB6D6" FontSize="12" Margin="0,6,0,0"/>
+                </StackPanel>
+
+                <!-- Logo y botones (arriba) -->
+                <StackPanel>
+                    <Image Source="/imagenes/logo.png"
                        Width="110" Height="110"
                        Margin="0,25,0,10"
                        Stretch="Uniform"
                        HorizontalAlignment="Center"/>
 
-                <TextBlock Text="Hospital"
+                    <TextBlock Text="Hospital"
                            Foreground="White" FontSize="22" FontWeight="Bold"
                            HorizontalAlignment="Center" Margin="0,0,0,28"/>
 
-                <!-- El botón de la sección activa se resalta con un DataTrigger -->
-                <Button Content="Pacientes" Command="{Binding MostrarPacientesCommand}">
-                    <Button.Style>
-                        <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding SeccionActual}" Value="Pacientes">
-                                    <Setter Property="Background" Value="#2F6FED"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                </Button>
+                    <!-- El botón de la sección activa se resalta con un DataTrigger -->
+                    <Button Content="Pacientes" Command="{Binding MostrarPacientesCommand}">
+                        <Button.Style>
+                            <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SeccionActual}" Value="Pacientes">
+                                        <Setter Property="Background" Value="#2F6FED"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
 
-                <Button Content="Citas" Command="{Binding MostrarCitasCommand}">
-                    <Button.Style>
-                        <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding SeccionActual}" Value="Citas">
-                                    <Setter Property="Background" Value="#2F6FED"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                </Button>
+                    <Button Content="Citas" Command="{Binding MostrarCitasCommand}">
+                        <Button.Style>
+                            <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SeccionActual}" Value="Citas">
+                                        <Setter Property="Background" Value="#2F6FED"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
 
-                <Button Content="Laboratorio" Command="{Binding MostrarLaboratorioCommand}">
-                    <Button.Style>
-                        <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding SeccionActual}" Value="Laboratorio">
-                                    <Setter Property="Background" Value="#2F6FED"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                </Button>
+                    <Button Content="Laboratorio" Command="{Binding MostrarLaboratorioCommand}"
+                        Visibility="{Binding PuedeVerLaboratorio, Converter={StaticResource BoolAVisible}}">
+                        <Button.Style>
+                            <Style TargetType="Button" BasedOn="{StaticResource BotonMenu}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SeccionActual}" Value="Laboratorio">
+                                        <Setter Property="Background" Value="#2F6FED"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
 
-                <Button Content="Salir"
+                    <Button Content="Salir"
                         Style="{StaticResource BotonMenu}"
                         Command="{Binding SalirCommand}"/>
-            </StackPanel>
-        </DockPanel>
+                </StackPanel>
+            </DockPanel>
 
-        <!-- Zona de contenido -->
-        <Grid Grid.Column="1" Background="#F3F6FA">
-            <ContentControl Content="{Binding VistaActual}"/>
+            <!-- Zona de contenido -->
+            <Grid Grid.Column="1" Background="#F3F6FA">
+                <ContentControl Content="{Binding VistaActual}"/>
+            </Grid>
         </Grid>
-    </Grid>
+    </DockPanel>
 </Window>

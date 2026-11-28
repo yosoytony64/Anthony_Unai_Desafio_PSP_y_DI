@@ -1,0 +1,58 @@
+﻿<Window x:Class="Sistema_Gestion.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:h="clr-namespace:Sistema_Gestion.Helpers"
+        mc:Ignorable="d"
+        Title="Hospital - Iniciar sesión"
+        Height="560" Width="420"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#173B67">
+
+    <Window.Resources>
+        <!-- El PasswordBox no tiene estilo implícito en Estilos.xaml, así que se define aquí -->
+        <Style TargetType="PasswordBox">
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Padding" Value="6,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="#C9D3E0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Border Style="{StaticResource Tarjeta}"
+                Width="340" Padding="28"
+                VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel>
+
+                <Image Source="/imagenes/logo.png"
+                       Width="90" Height="90"
+                       Stretch="Uniform"
+                       HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Hospital" Style="{StaticResource Titulo}"
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="Inicia sesión para continuar" Style="{StaticResource Subtitulo}"
+                           HorizontalAlignment="Center" Margin="0,2,0,20"/>
+
+                <TextBlock Text="Usuario" Style="{StaticResource Etiqueta}"/>
+                <TextBox Text="{Binding NombreUsuario, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <TextBlock Text="Contraseña" Style="{StaticResource Etiqueta}"/>
+                <PasswordBox h:PasswordBoxHelper.BoundPassword="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <!-- IsDefault: al pulsar Enter se ejecuta este botón -->
+                <Button Content="Entrar" IsDefault="True" Margin="0,8,0,0"
+                        Style="{StaticResource BotonPrimario}"
+                        Command="{Binding EntrarCommand}"/>
+
+                <TextBlock Text="{Binding MensajeEstado}" TextWrapping="Wrap"
+                           Margin="0,12,0,0" FontWeight="SemiBold"
+                           Foreground="{StaticResource ColorPeligro}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
